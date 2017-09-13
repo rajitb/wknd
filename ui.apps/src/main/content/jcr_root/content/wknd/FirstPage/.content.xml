@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-09-13T11:16:41.548+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/article-title"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First Page"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-09-13T11:03:53.822+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-09-13T11:04:26.137+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2017-09-13T11:16:16.018+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-13T11:16:26.591+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Title"
+                    sling:resourceType="wknd/components/content/title"
+                    type="h3"/>
+                <text
+                    jcr:created="{Date}2017-09-13T11:16:30.385+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-09-13T11:16:41.546+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/text"
+                    text="&lt;p>Sample text being added through the component&lt;br>&#xa;&lt;/p>&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
